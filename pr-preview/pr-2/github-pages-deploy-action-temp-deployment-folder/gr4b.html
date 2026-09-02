@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Get Ready for Baby — David Cabatingan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="assets/faviconsmall.ico" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="scatter.css" />
+</head>
+<body>
+
+	<header class="site-header">
+		<div class="container">
+			<a href="index.html" class="name">David Cabatingan</a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="projects.html" class="active">Projects</a></li>
+					<li><a href="photography.html">Photography</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<h1>Get Ready for Baby — Name Embeddings</h1>
+			<p>Below is a visualization of the embeddings generated for the top baby names of the past 85 years.</p>
+			<p class="muted">Scroll to zoom in and out — the graph may start zoomed in. The shade of each dot
+			corresponds to its peak year; red dots are male names, blue dots are female names.</p>
+
+			<div id="scatter"></div>
+			<div id="legend" style="display: inline-block"></div>
+
+			<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+			<script src="https://d3js.org/d3-color.v1.min.js"></script>
+			<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+			<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+			<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+			<script src="myscatter.js" charset="utf-8"></script>
+
+			<p class="muted">This d3 plot is adapted from the scatterplot at
+			<a href="http://bl.ocks.org/peterssonjonas/4a0e7cb8d23231243e0e">bl.ocks.org/peterssonjonas</a>.</p>
+		</div>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			&copy; 2026 David Cabatingan
+		</div>
+	</footer>
+
+</body>
+</html>
